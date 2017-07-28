@@ -2,7 +2,7 @@ import React from 'react';
 import { StackNavigator, TabNavigator } from 'react-navigation';
 import { BackHandler } from 'react-native';
 
-
+import SplashScreen from '../screens/SplashScreen';
 import WelcomeScreen from '../screens/WelcomeScreen';
 import AuthScreen from '../screens/AuthScreen';
 import MapScreen from '../screens/MapScreen';
@@ -17,6 +17,7 @@ BackHandler.addEventListener('backPress', () => {
     });
 
 const Routes = {
+    Splash: { screen: SplashScreen },
     Welcome: { screen: WelcomeScreen },
     Auth: { screen: AuthScreen },
     Main: {

@@ -9,8 +9,7 @@ import getStore from './store';
 
 const AppNavigator = TabNavigator(Routes, {
     swipeEnabled: false,
-    animationEnabled: false,
-    lazyload: true
+    lazy: true
 });
 
 const navReducer = (state, action) => {
