@@ -1,7 +1,7 @@
 import React from 'react';
 import { StackNavigator, TabNavigator } from 'react-navigation';
 import { BackHandler } from 'react-native';
-import _ from 'lodash';
+
 
 import WelcomeScreen from '../screens/WelcomeScreen';
 import AuthScreen from '../screens/AuthScreen';

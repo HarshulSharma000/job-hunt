@@ -4,10 +4,10 @@ import { Button } from 'react-native-elements';
 
 class Review extends Component {
     static navigationOptions = ({ navigation }) => ({
-        title: 'HO HO HO Santa Claus',
+        title: 'Review',
         headerRight: <Button title='Setting' onPress={() => { navigation.navigate('Setting'); }} />,
         style: {
-            marginTop: Platform.OS === 'Android' ? 24 : 0
+            marginTop: Platform.OS === 'Android' ? 40 : 0
         }
     });
     render() {
